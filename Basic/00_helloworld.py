@@ -25,3 +25,7 @@ print(type(1.5))  # Tipo 'float'
 print(type(3 + 1j))  # Tipo 'complex'
 print(type(True))  # Tipo 'bool'
 print(type(print("Mi cadena de texto")))  # Tipo 'NoneType'
+print(type({'name': 'Max', 'age':23}))  # Tipo 'Dictionary'
+print(type({9.8, 3.14, 2.7}))  # Tipo 'Set'
+print(type((9.8, 3.14, 2.7)))  # Tipo 'Tuple'
+
